@@ -1,0 +1,305 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    font-size: 27px;
+}
+
+h1 {
+    color: #FF4081
+}
+
+h2{
+    color: #009688;
+}
+
+h3{ 
+    color: #FF4081;
+}
+h5 {
+    color: #FF4081;
+}
+
+.header{
+    background-color: #2E948A;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.menu-right > a {
+    margin-right: 42px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration: none;
+    font-style: normal;
+}
+
+.primeiro{
+    display: flex;
+    flex-direction: row;
+    margin: 200px;
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+}
+
+.primeiro > div {
+    width: 488px;
+}
+
+.segundo {
+    display: flex;
+    justify-content: space-around;
+    background-color: #F6F6F6;
+    padding: 50px;
+    flex-wrap:wrap;
+}
+
+.segundo > div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 40px;
+    width: 293px;
+}
+
+.segundo > div > p {
+    font-size: 17px;
+}
+
+button {
+    border-radius: 62px;
+    padding: 10px;
+    font-size: 27px;
+    font-weight: 400;
+}
+
+.outline {
+    background-color: transparent;
+    color: #FF4081;
+    border: 2px solid #FF4081;
+}
+
+.primary {
+    background-color: #FF4081;
+    color: white;
+    border-color: #FF4081;
+}
+
+.usuarios {
+    display: flex;
+    margin: 40px;
+}
+
+.terceiro {
+    padding: 40px;
+}
+
+.terceiro > div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.terceiro > div > div {
+    width: 700px
+}
+
+.usuarios > p {
+    font-size: 18px;
+}
+
+.terceiro > h2 {
+    color: #009688;
+    text-transform: uppercase;
+}
+
+.usuarios > img {
+    margin-right: 40px;
+}
+
+.quarto {
+    padding: 40px;
+    background-color: #F6F6F6;
+}
+
+.quarto > div {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+
+.quarto > div > div {
+    margin: 40px;
+    width: 319px;
+}
+
+.gray-square{
+    background-color: lightgray;
+    height: 193px;
+    width: 319px;
+}
+
+.quarto > h2 {
+    text-transform: uppercase;
+}
+
+
+.footer{
+    background-color: #2E948A;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+footer > div > div {
+    display: flex;
+    flex-direction: column;
+}
+.outline-white {
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+}
+
+.contato{
+    border: 1px #686868 ;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 7px;
+}
+
+.blog1{
+    display: flex;
+    flex-direction: row;
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.blog2{
+    padding: 40px;
+    background-color: #F6F6F6;
+    display: flex;
+}
+
+
+.blog2 > div > div >div {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    color:#FF4081 ;
+    
+}
+
+.blog2 > div {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    color:black ;
+}
+
+.blog2 > div >div {
+    display: flex;
+    width: 600px;
+    margin: 40px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.post1{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    color:#FF4081 ;
+    
+}
+
+.post2{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    color: #9D9D9D ;
+    font-size: 10px;
+}
+
+.gray-square2{
+    background-color: lightgray;
+    height: 465px;
+    width: 1032px;
+}
+
+.post3{
+    width:1032px;
+    text-align: center;
+}
+
+.post3 >div {
+    color: #2E948A;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cursos-title {
+    margin-top: 40px;
+    text-align: center;
+    background-color: #F6F6F6;
+}
+
+.curso1{
+    display: flex;
+    font-size: 15px;
+    width: 317px;
+    height: 23px;
+}
+
+.curso2{
+    display: flex;
+    margin: 50px;
+}
+
+.curso3{
+    display: flex;
+    margin: 50px;
+}
+
+.curso4{
+    display: flex;
+    margin: 50px;
+}
+
+.secondary {
+    background-color: #419488;
+    color: white;
+    border-color: #419488;
+    text-decoration: none;
+}
+
+.secondary > a {
+    background-color: #419488;
+    color: white;
+    border-color: #419488;
+    text-decoration: none;
+}
+
+.aula1{ 
+    display: flex;
+    justify-content: center;
+}
+
+.aula1 > div{ 
+width: 800px;
+}
+
+.aula1 > .gray-square{ 
+    width: 400px;
+    }
